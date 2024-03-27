@@ -1,6 +1,5 @@
 #!/bin/python3
 # Author: Romildo Santos
-
 # importações
 import socket, struct, ipaddress, time, random, argparse
 import pyfiglet
