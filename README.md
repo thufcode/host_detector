@@ -1,4 +1,4 @@
-Detector de Hosts ICMP
+## Detector de Hosts ICMP
 
 Este script em Python é uma ferramenta de linha de comando para detectar hosts ativos na rede usando o protocolo ICMP (Internet Control Message Protocol), com a opção de especificar uma máscara de rede. O script envia pacotes ICMP echo request (ping) para uma lista de endereços IP na rede especificada e aguarda por respostas para determinar quais hosts estão ativos.
 
