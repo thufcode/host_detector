@@ -20,7 +20,7 @@ Este script em Python é uma ferramenta de linha de comando para detectar hosts 
 ## Uso
 
 ```bash
-./hicmp.py -d <domínio ou domínios> -w <tempo de espera> -o <arquivo de saída> [--verbose]
+./host_icmp_scan.py -d <domínio ou domínios> -w <tempo de espera> -o <arquivo de saída> [--verbose]
 ```
 
 ### Opções:
@@ -33,7 +33,7 @@ Este script em Python é uma ferramenta de linha de comando para detectar hosts 
 ### Exemplo de Uso:
 
 ```bash
-./hicmp.py -d 192.168.0.0/24 -w 0.1 -o hosts_encontrados.txt
+./host_icmp_scan.py -d 192.168.0.0/24 -w 0.1 -o hosts_encontrados.txt
 ```
 
 Este comando irá verificar todos os hosts na sub-rede `192.168.0.0/24`, com um intervalo de espera de 0.1 segundos entre os pacotes ICMP enviados, e salvará os IPs encontrados no arquivo `hosts_encontrados.txt`.
